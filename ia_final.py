@@ -5,7 +5,7 @@ import json
 import os
 
 # 1. CONFIGURACIÓN Y ESTILO PROFESIONAL
-st.set_page_config(page_title="Kaixo Endika Artola11", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="Kaixo Endika Artola", page_icon="🎓", layout="wide")
 
 # Estilo para el botón de Reset en rojo y diseño limpio
 st.markdown("""
@@ -99,6 +99,7 @@ if prompt := st.chat_input("Escribe aquí tu duda..."):
         
         except Exception as e:
             st.error(f"Error: {e}")
+
 
 
 
