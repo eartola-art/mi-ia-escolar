@@ -17,7 +17,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # TÍTULO PERSONALIZADO
-st.title("🤖 Kaixo Tu madre moonta caballo")
+st.title("🤖 Kaixo Endika Artola")
 st.markdown("---")
 
 # 2. GESTIÓN DE MEMORIA (ARCHIVO JSON)
@@ -99,6 +99,7 @@ if prompt := st.chat_input("Escribe aquí tu duda..."):
         
         except Exception as e:
             st.error(f"Error: {e}")
+
 
 
 
